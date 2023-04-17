@@ -15,7 +15,7 @@ pic_width = 9.6
 pic_height = 6.3
 
 Org = "ssc"    #修改物种 主要为人(human)小鼠(mouse)大鼠(rat)三个物种的，其他的根据实际物种情况进行修???
-OrgDB = "org.Ss.eg.db"
+#OrgDB = "org.Ss.eg.db"   #使用其他物种
 
 dir.create("GO分析")
 dir.create("KEGG_PATHWAY分析")
