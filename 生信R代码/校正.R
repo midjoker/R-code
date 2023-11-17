@@ -1,6 +1,0 @@
-library(limma)
-library(xlsx)
-setwd("D:/Desktop/")
-data_nd = read.xlsx("原始数据.xlsx",2,rowIndex = T)
-q=normalizeBetweenArrays(object = data_nd)
-write.xlsx(q,file = "hj.xlsx")
